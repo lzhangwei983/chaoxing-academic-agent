@@ -1,0 +1,20 @@
+{
+  "student": {
+    "name": "高校学子",
+    "studentId": "2026xxxxxx"
+  },
+  "course": {
+    "courseId": "100000001",
+    "classId": "200000001",
+    "cpi": "YOUR_CPI",
+    "title": "大学核心专业课程"
+  },
+  "tasks": [
+    {
+      "name": "章节综合复习作业示例",
+      "url": "https://mooc1.chaoxing.com/mooc-ans/mooc2/work/task?courseId=100000001&classId=200000001&cpi=YOUR_CPI&workId=300000001&answerId=400000001&enc=YOUR_ENC",
+      "viewUrl": "https://mooc1.chaoxing.com/mooc-ans/mooc2/work/view?courseId=100000001&classId=200000001&cpi=YOUR_CPI&workId=300000001&answerId=400000001&enc=YOUR_ENC",
+      "doworkUrl": "https://mooc1.chaoxing.com/mooc-ans/mooc2/work/dowork?courseId=100000001&classId=200000001&cpi=YOUR_CPI&workId=300000001&answerId=400000001&knowledgeId=&jobid=&standardEnc=YOUR_STD_ENC&enc=YOUR_ENC"
+    }
+  ]
+}

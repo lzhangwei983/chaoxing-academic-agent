@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+build/
+dist/
+
+# Node / JS
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Personal Runtime & Data Files
+*.json
+!package.json
+!package-lock.json
+!config.example.json
+*.tmp
+*.log
+*.pdf
+*.pptx
+*.docx
+*.xlsx
+
+# Sensitive session data / cookies
+credentials.json
+session.json
+cookies.txt
+.env
+.env.*
+
+# Development & internal reverse engineering scripts (Keep private)
+dev_tools/
+dev/
+inspectors/
+sheeridVerify/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace

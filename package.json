@@ -1,0 +1,30 @@
+{
+  "name": "chaoxing-academic-agent",
+  "version": "1.0.0",
+  "description": "AI Agent-Native Autonomous Academic Workflow & Reverse-Engineered Automation Engine for Chaoxing",
+  "main": "scripts/auto_submitter_v2.js",
+  "type": "module",
+  "scripts": {
+    "scan": "node scripts/scan_courses.js",
+    "scrape": "node scripts/scrape_official_answers.js",
+    "submit": "node scripts/auto_submitter_v2.js",
+    "redo": "node scripts/batch_perfect_redo.js"
+  },
+  "keywords": [
+    "chaoxing",
+    "ai-agent",
+    "workflow",
+    "automation",
+    "academic",
+    "puppeteer",
+    "opencli"
+  ],
+  "author": "Chaoxing Academic Agent Contributors",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@jackwener/opencli": "^1.0.0"
+  }
+}
